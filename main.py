@@ -2,6 +2,8 @@ import hashlib
 import os
 import time
 import gi
+import gi
+gi.require_version('Gdk', '3.0')
 from ulauncher.api.client.EventListener import EventListener
 from ulauncher.api.client.Extension import Extension
 from ulauncher.api.shared.action.ExtensionCustomAction import ExtensionCustomAction
